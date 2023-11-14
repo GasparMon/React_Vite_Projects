@@ -1,0 +1,129 @@
+#div-app {
+  width: 500px;
+  height: 500px;
+  border: 5px solid rgb(230, 127, 241);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 150px;
+  right: 550px;
+  border-radius: 300px;
+  box-shadow: 0 0 105px rgb(236, 190, 241);
+}
+
+#div-button {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 320px;
+  width: 400px;
+}
+
+button {
+  position: relative;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 7px;
+  right: 10px;
+  color: white;
+  background-color: transparent;
+  border: 2px solid white;
+  cursor: pointer;
+}
+#h1-app {
+  display: flex;
+  flex: content;
+  position: absolute;
+  top: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  height: 200px;
+  padding: 0px;
+  top: 50px;
+}
+
+#h2-app {
+  display: flex;
+  flex: content;
+  position: absolute;
+  top: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  height: 200px;
+  padding: 0px;
+  top: 100px;
+}
+
+h2 {
+  font-family: "Comfortaa", sans-serif;
+  font-family: "Onest", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Pixelify Sans", sans-serif;
+  font-size: 100px;
+}
+
+h1 {
+  font-family: "Comfortaa", sans-serif;
+  font-family: "Onest", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Pixelify Sans", sans-serif;
+  font-size: 50px;
+}
+
+#start {
+  color: white;
+  border: 2px solid greenyellow;
+  transition: box-shadow 0.3s ease;
+  transition: color 0.3s ease;
+ 
+}
+
+#start:hover{
+    box-shadow: 0 0 10px rgb(206, 241, 152);
+    color: greenyellow;
+   
+}
+
+#stop {
+    color: white;
+  border: 2px solid rgb(255, 71, 47);
+  transition: box-shadow 0.3s ease;
+  transition: color 0.3s ease;
+
+}
+
+#stop:hover{
+    box-shadow: 0 0 10px rgb(255, 160, 148);
+    color: rgb(255, 71, 47);
+}
+
+#continue {
+    color: white;
+  border: 2px solid rgb(245, 255, 47);
+  transition: box-shadow 0.3s ease;
+  transition: color 0.3s ease;
+
+}
+
+#continue:hover{
+    box-shadow: 0 0 10px rgb(240, 244, 158);
+    color: rgb(245, 255, 47);
+}
+
+#reboot {
+    color: white;
+    border: 2px solid rgb(47, 71, 255);
+    transition: box-shadow 0.3s ease;
+    transition: color 0.3s ease;
+  }
+
+#reboot:hover{
+    box-shadow: 0 0 10px rgb(166, 175, 244);
+    color: rgb(47, 71, 255);
+}
